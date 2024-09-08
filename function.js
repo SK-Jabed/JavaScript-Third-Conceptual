@@ -43,3 +43,28 @@ function giveName() {
 
 const myName = giveName();
 console.log(myName);
+
+// Types of functions ==> 4 types
+
+
+// 1. No Parameters No Return
+function show() {
+    console.log("hello");
+}
+
+// 2. Parameters With No Return
+
+function add(x, y) {
+    console.log(x + y);
+}
+
+// 3. No Parameters But Return
+function giveName() {
+    const x = "CR7";
+    return x;
+}
+
+// 4. Parameters With Return
+function giveDouble(x) {
+    return x;
+}
